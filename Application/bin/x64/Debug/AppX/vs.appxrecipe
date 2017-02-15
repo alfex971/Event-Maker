@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e3457769-ca66-47e6-b872-62f9bcf1dabe</PackageIdentityName>
     <PackageIdentityPublisher>CN=Cristian Patras</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Universe\Downloads\Application\Application\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Universe\Source\Repos\Event-Maker\Application\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-15T09:47:38.727</Modified>
+      <Modified>2017-02-15T18:07:15.670</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2017-02-15T09:47:38.178</Modified>
+      <Modified>2017-02-15T10:23:47.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -460,45 +460,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T20:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-01-30T10:34:44.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
       <Modified>2017-02-15T09:30:28.958</Modified>
     </AppxPackagedFile>
@@ -506,14 +506,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-23T20:05:12.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-15T09:30:29.770</Modified>
+      <Modified>2017-02-15T18:07:15.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\Core\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2017-02-15T09:47:38.717</Modified>
+      <Modified>2017-02-15T18:07:15.650</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

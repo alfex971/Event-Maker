@@ -10,19 +10,19 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e3457769-ca66-47e6-b872-62f9bcf1dabe</PackageIdentityName>
     <PackageIdentityPublisher>CN=Cristian Patras</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Universe\Downloads\Application\Application\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Universe\Source\Repos\Event-Maker\Application\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -343,47 +343,47 @@
     <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\Core\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

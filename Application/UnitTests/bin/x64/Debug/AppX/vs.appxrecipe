@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>61be08b7-924b-40b7-8f4b-2faa75c62383</PackageIdentityName>
     <PackageIdentityPublisher>CN=Universe</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Universe\Downloads\Application\Application\UnitTests\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,18 +25,18 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-15T10:23:54.327</Modified>
+      <Modified>2017-02-15T18:13:05.196</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\UnitTests.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\UnitTests.exe">
       <PackagePath>entrypoint\UnitTests.exe</PackagePath>
-      <Modified>2017-02-15T10:23:50.198</Modified>
+      <Modified>2017-02-15T18:13:04.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
       <Modified>2017-02-15T10:23:47.879</Modified>
     </AppxPackagedFile>
@@ -476,6 +476,38 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T20:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+      <Modified>2016-02-21T19:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\dbgshim.dll">
+      <PackagePath>dbgshim.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscorrc.debug.dll">
+      <PackagePath>mscorrc.debug.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+      <Modified>2016-02-21T19:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\lib\dotnet\mscorlib.ni.dll">
+      <PackagePath>mscorlib.ni.dll</PackagePath>
+      <Modified>2016-02-21T19:25:26.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Common.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.Common.dll</PackagePath>
       <Modified>2016-07-26T21:22:38.000</Modified>
@@ -504,53 +536,53 @@
       <PackagePath>vstest_executionengine_platformbridge.winmd</PackagePath>
       <Modified>2016-07-26T21:22:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Properties\UnitTestApp.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Properties\UnitTestApp.rd.xml">
       <PackagePath>Properties\UnitTestApp.rd.xml</PackagePath>
       <Modified>2017-02-15T10:04:16.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-01-30T10:34:44.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\UnitTests.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\UnitTests.xr.xml">
       <PackagePath>UnitTests.xr.xml</PackagePath>
       <Modified>2017-02-15T10:23:50.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
       <Modified>2017-02-15T09:30:28.958</Modified>
     </AppxPackagedFile>
@@ -558,14 +590,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-23T20:05:12.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-15T10:23:51.542</Modified>
+      <Modified>2017-02-15T18:07:18.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\Core\UnitTests.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\Core\UnitTests.exe">
       <PackagePath>UnitTests.exe</PackagePath>
-      <Modified>2017-02-15T10:23:54.316</Modified>
+      <Modified>2017-02-15T18:13:05.183</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

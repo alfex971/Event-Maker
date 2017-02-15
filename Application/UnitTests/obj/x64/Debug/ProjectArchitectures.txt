@@ -1,2 +1,2 @@
-C:\Users\Universe\Downloads\Application\Application\App1.csproj;x64
-C:\Users\Universe\Downloads\Application\Application\UnitTests\UnitTests.csproj;x64
+C:\Users\Universe\Source\Repos\Event-Maker\Application\App1.csproj;x64
+C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\UnitTests.csproj;x64

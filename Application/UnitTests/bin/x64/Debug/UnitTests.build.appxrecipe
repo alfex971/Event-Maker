@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>61be08b7-924b-40b7-8f4b-2faa75c62383</PackageIdentityName>
     <PackageIdentityPublisher>CN=Universe</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Universe\Downloads\Application\Application\UnitTests\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\UnitTests.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\UnitTests.exe">
       <PackagePath>entrypoint\UnitTests.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
@@ -355,6 +355,30 @@
     <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\dbgshim.dll">
+      <PackagePath>dbgshim.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscorrc.debug.dll">
+      <PackagePath>mscorrc.debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Universe\.nuget\packages\runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR\1.0.1\runtimes\win7-x64\lib\dotnet\mscorlib.ni.dll">
+      <PackagePath>mscorlib.ni.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Common.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.Common.dll</PackagePath>
     </AppxPackagedFile>
@@ -376,53 +400,53 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\Redist\CommonConfiguration\neutral\vstest_executionengine_platformbridge.winmd">
       <PackagePath>vstest_executionengine_platformbridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Properties\UnitTestApp.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Properties\UnitTestApp.rd.xml">
       <PackagePath>Properties\UnitTestApp.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\UnitTests.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\UnitTests.xr.xml">
       <PackagePath>UnitTests.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\bin\x64\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Universe\Downloads\Application\Application\UnitTests\bin\x64\Debug\Core\UnitTests.exe">
+    <AppxPackagedFile Include="C:\Users\Universe\Source\Repos\Event-Maker\Application\UnitTests\bin\x64\Debug\Core\UnitTests.exe">
       <PackagePath>UnitTests.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

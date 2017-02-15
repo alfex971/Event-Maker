@@ -22,5 +22,16 @@ namespace UnitTests
             var listcountactual = eventViewModel.CatalogSingleton.list.Count;
             Assert.AreEqual(listcountbefore + 1,listcountactual);
         }
+        [TestMethod]
+        public void TestRemoveEvent()
+        {
+            var eventViewModel = new EventViewModel();
+            var listCountBefore = eventViewModel.CatalogSingleton.list.Count;
+            var selectedIndex = eventViewModel.SelectedEventIndex;
+            selectedIndex++;
+            eventViewModel.CatalogSingleton.RemoveEvent(selectedIndex);
+            var listCountAfter = eventViewModel.CatalogSingleton.list.Count;
+            Assert.AreEqual(listCountAfter,listCountBefore - 1);
+        }
     }
 }
