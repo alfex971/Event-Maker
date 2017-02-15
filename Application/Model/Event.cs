@@ -10,6 +10,7 @@ namespace App1.Model
     public class Event
     {
         private string _name;
+        private string _description;
         public int ID { get; set; }
 
         public string Name
@@ -32,7 +33,19 @@ namespace App1.Model
             }
         }
 
-        public string Description { get; set; }
+        public string Description
+        {
+            get { return _description; }
+            set
+            {
+                _description = value;
+                if (_description == null)
+                {
+                    throw new ArgumentNullException(nameof(Description), "The Description field must be filled");
+                }
+            }
+        }
+
         public string Place { get; set; }
         public DateTime Time { get; set; }
 

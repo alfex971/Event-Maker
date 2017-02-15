@@ -40,9 +40,14 @@ namespace App1.Handler
                     Name = EventViewModel.Name,
                     Description = EventViewModel.Description,
                     Place = EventViewModel.Place,
-                    Time = DateTimeConverter.DateTimeOffsetAndTimeSetToDateTime(EventViewModel.Date, EventViewModel.Time),
+                    Time =
+                        DateTimeConverter.DateTimeOffsetAndTimeSetToDateTime(EventViewModel.Date, EventViewModel.Time),
                     ID = EventViewModel.CatalogSingleton.list.Count + 1
                 });
+            }
+            catch (ArgumentNullException e)
+            {
+                EventViewModel.Message += e.Message;
             }
             catch (ArgumentOutOfRangeException e)
             {
